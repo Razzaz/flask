@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    font-weight: 300;
+    align-items: center;
+}
+
+.nav-brand{
+    font-family: "Product Sans";
+    font-size: 18px;
+    color: black;
+}
+
+.nav-items{
+    font-family: 'Product Sans Light';
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    width: 20%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button.btn-secondary{
+    font-family: "Product Sans";
+    padding: 8px 22px;
+    border: 2px solid #000000;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+button.btn-primary{
+    font-family: "Product Sans";
+    font-size: 24px;
+    padding: 8px 36px;
+    border: 2px solid #000000;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 100px;
+    margin: 24px 0px;
+}
+
+.button {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    overflow: hidden;
+    font-family: "Product Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  button.button{
+      margin: 64px 0px;
+  }
+  
+  .button:hover {
+    background: #06A0FF;
+  }
+  
+  .button:active {
+    background: #006e58;
+  }
+  
+  .button__text,
+  .button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .button__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+  
+
+section.home{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
+}
+
+.text-section{
+    padding-top: 144px;
+}
+
+h1.large-title{
+    font-family: "Product Sans";
+    font-size: 72px;
+}
+
+p.text-muted{
+    font-family: "Product Sans Light";
+    font-size: 20px;
+    margin: 16px 0px;
+}
+
+.jumbotron-img{
+    padding-top: 0px;
+}
+
+.jumbotron-img img{
+    right: 0;
+    position: absolute;
+}
